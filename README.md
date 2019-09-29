@@ -20,6 +20,7 @@
 
 ## git pull origin master
 *Translation:* "I want to pull all of the changes from the master branch of my remote repository (called `origin`) into the master branch of my local repository. This way, my local master branch is completely up-to-date with my remote master branch."
+*Note:* If you're still working on a branch and you want the changes from the remote master branch (for example, if your teammate has changes on the remote master branch that you don't have on your local branch and you want their changes in order to test them with what you're working on), you can use `git pull origin branchname` to make your local (non-master) branch up-to-date with the remote master branch. Then, once everything is working, you can push your branch changes (`git push origin branchname`) to GitHub, merge those changes into the master (again, on GitHub), then pull all changes into your local master branch (`git pull origin master`) so you can create a new branch off of your local master in order to start working on another feature.
 
 ## git branch -d branchName
 *Translation:* "I want to delete the branchName branch from my local repository."
