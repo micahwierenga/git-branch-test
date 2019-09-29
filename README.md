@@ -51,5 +51,8 @@
 ### `git diff fileName.js`
 **Translation:** I want to see the unstaged changes I've made to the file called `fileName.js`.
 
+### `git reset HEAD fileName.js`
+**Translation:** I have some changes to `fileName.js` that are currently staged and I want to unstage them.
+
 ### `git checkout fileName.js`
 **Translation:** I would like to get rid of all unstaged changes from the file called `fileName.js`.
