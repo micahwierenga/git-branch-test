@@ -14,7 +14,7 @@
 
 ## Common git commands
 
-### git add .
+### `git add .`
 **Translation:** I want to put all my changes in the staging area so they can then be committed to my local repository. If I've created a new file (or files), I want it to now be tracked by Git.
 
 ### git commit -m Message
