@@ -48,5 +48,8 @@
 ### `git branch`
 **Translation:** I want to see the full list of branches on my local respository, as well as see on which branch I'm currently located.
 
+### `git diff fileName.js`
+**Translation:** I want to see the unstaged changes I've made to the file called `fileName.js`.
+
 ### `git checkout fileName.js`
-**Translation:** I would like to get rid of all uncommitted changes from the file called `fileName.js`.
+**Translation:** I would like to get rid of all unstaged changes from the file called `fileName.js`.
