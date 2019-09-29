@@ -1,5 +1,16 @@
 # Git Branch Exercise
 
+1. Clone this repo.
+2. Create a branch with your name plus branch. For example, `annaBranch`.
+3. Find the file with your name in the file name. Insert a line of code.
+4. Add and commit your change(s).
+5. Push your code using `git push origin YOURBRANCHNAME`. For example, `git push origin annaBranch`.
+6. Go back to this GitHub repo (https://github.com/micahwierenga/git-branch-test).
+7. In the dropdown that says "Branch: master", find and select your branch name (e.g., `annaBranch`).
+8. Click the "New pull request" button.
+9. Evaluate your changes, then click 
+
+
 ### git add .
 **Translation:** I want to put all my changes in the staging area so they can then be committed to my local repository. If I've created a new file (or files), I want it to now be tracked by Git.
 
@@ -20,6 +31,7 @@
 
 ### git pull origin master
 **Translation:** I want to pull all of the changes from the master branch of my remote repository (called `origin`) into the master branch of my local repository. This way, my local master branch is completely up-to-date with my remote master branch.
+<br>
 **Note:** If you're still working on a branch and you want the changes from the remote master branch (for example, if your teammate has changes on the remote master branch that you don't have on your local branch and you want their changes in order to test them with what you're working on), you can use `git pull origin branchname` to make your local (non-master) branch up-to-date with the remote master branch. Then, once everything is working, you can push your branch changes (`git push origin branchname`) to GitHub, merge those changes into the master (again, on GitHub), then pull all changes into your local master branch (`git pull origin master`) so you can create a new branch off of your local master in order to start working on another feature.
 
 ### git branch -d branchName
