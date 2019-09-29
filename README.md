@@ -1,5 +1,7 @@
 # Git Branch Exercise
 
+## Instructions
+
 1. Clone this repo.
 2. Create a branch with your name plus branch. For example, `annaBranch`.
 3. Find the file with your name in the file name. Insert a line of code.
@@ -10,6 +12,7 @@
 8. Click the "New pull request" button.
 9. Evaluate your changes, then click the "Create pull request" button. (You may have to add a title, and you may have to clic a "Create pull request" button twice.)
 
+## Common git commands
 
 ### git add .
 **Translation:** I want to put all my changes in the staging area so they can then be committed to my local repository. If I've created a new file (or files), I want it to now be tracked by Git.
