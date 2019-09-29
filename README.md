@@ -2,7 +2,7 @@
 
 ## Instructions
 
-1. Clone this repo.
+1. Clone this repo. (Do not fork this repo.)
 2. Create a branch with your name plus branch. For example, `annaBranch`.
 3. Find the file with your name in the file name. Insert a line of code.
 4. Add and commit your change(s).
