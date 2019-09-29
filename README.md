@@ -8,7 +8,7 @@
 6. Go back to this GitHub repo (https://github.com/micahwierenga/git-branch-test).
 7. In the dropdown that says "Branch: master", find and select your branch name (e.g., `annaBranch`).
 8. Click the "New pull request" button.
-9. Evaluate your changes, then click 
+9. Evaluate your changes, then click the "Create pull request" button. (You may have to add a title, and you may have to clic a "Create pull request" button twice.)
 
 
 ### git add .
